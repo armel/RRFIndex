@@ -1,7 +1,6 @@
 html, body {
-    padding: 0;
-    margin: 0;
     height: 100%;
+    margin: 0;
 }
 
 body {
@@ -27,14 +26,11 @@ p span {
 }
 
 .frame {
+    display: block; 
     border-top: 1px solid lightgray;
     border-left: none;
     border-right: none;
     border-bottom: none;
-    margin: none;
-    padding: none;
-    display: block; 
-    overflow: hidden;
     height: 100%;
     width: 100%;
 }
