@@ -23,11 +23,11 @@
     développé par F4HWN Armel
   </p>
 
-  <iframe name="iframe" src="http://rrf.f5nlg.ovh:8080/RRFTracker/RRF-today/" onload="iframe_loaded()"></iframe>
+  <iframe name="iframe" id="iframe_id" src="http://rrf.f5nlg.ovh:8080/RRFTracker/RRF-today/" onload="iframe_loaded()"></iframe>
 
   <script type="text/javascript">
     function iframe_loaded() {
-        var iFrameID = document.getElementById('iframe');
+        var iFrameID = document.getElementById('iframe_id');
         if(iFrameID) {
               iFrameID.height = "3000px";
               iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
