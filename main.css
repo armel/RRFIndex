@@ -31,6 +31,7 @@ p span {
     border-right: none;
     margin: none;
     padding: none;
+    display: block; 
     overflow: hidden;
     height: 100vh;
     width: 100vw;
