@@ -9,7 +9,7 @@ body {
 }
 
 iframe {
-    display: block; 
+    display: fixed; 
     border-top: 1px solid lightgray;
     border-left: none;
     border-right: none;
