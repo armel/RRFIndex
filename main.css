@@ -29,6 +29,7 @@ p span {
     border-top: 1px solid lightgray;
     border-left: none;
     border-right: none;
+    border-bottom: none;
     margin: none;
     padding: none;
     display: block; 
