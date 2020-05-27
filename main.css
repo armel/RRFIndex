@@ -8,6 +8,16 @@ body {
     font: 12px Arial, Helvetica, sans-serif;
 }
 
+iframe {
+    display: block; 
+    border-top: 1px solid lightgray;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    width: 100%;
+    height: 100%;
+}
+
 p {
     margin-left: 10px;
     margin-right: 10px;
@@ -16,16 +26,6 @@ p {
 
 p span {
     float: left;
-}
-
-iframe {
-    display: block; 
-    border-top: 1px solid lightgray;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-    height: 100vh;
-    width: 100vw;
 }
 
 a {
