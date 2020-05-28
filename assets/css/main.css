@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background-image: url("grey.png");
+    background-image: url("../images/grey.png");
     font: 12px Arial, Helvetica, sans-serif;
 }
 
@@ -24,6 +24,7 @@ p {
     margin-left: 10px;
     margin-right: 10px;
     text-align: right;
+    vertical-align: middle!important;
 }
 
 p span {
@@ -37,4 +38,8 @@ a {
     text-decoration: none;
     cursor: pointer;
     margin: 10px;
+}
+
+a:hover {
+    color: dimgray;
 }
