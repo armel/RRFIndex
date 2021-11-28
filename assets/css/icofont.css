@@ -2,7 +2,7 @@
 * @package IcoFont 
 * @version 1.0.1 
 * @author IcoFont https://icofont.com 
-* @copyright Copyright (c) 2015 - 2020 IcoFont 
+* @copyright Copyright (c) 2015 - 2021 IcoFont 
 * @license - https://icofont.com/license/
 */
 
@@ -11,8 +11,8 @@
   font-family: "IcoFont";
   font-weight: normal;
   font-style: "Regular";
-  src: url("../fonts/icofont.woff2") format("woff2"),
-  url("../fonts/icofont.woff") format("woff");
+  src: url("./fonts/icofont.woff2") format("woff2"),
+  url("./fonts/icofont.woff") format("woff");
 }
 
 [class^="icofont-"], [class*=" icofont-"]
@@ -32,29 +32,9 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.icofont-bug:before
+.icofont-police:before
 {
-  content: "\eec7";
-}
-
-.icofont-dashboard-web:before
-{
-  content: "\eef9";
-}
-
-.icofont-info-circle:before
-{
-  content: "\ef4e";
-}
-
-.icofont-mic-mute:before
-{
-  content: "\ef94";
-}
-
-.icofont-mic:before
-{
-  content: "\ef95";
+  content: "\ebd4";
 }
 
 .icofont-spreadsheet:before
@@ -62,74 +42,19 @@
   content: "\effb";
 }
 
-.icofont-wall-clock:before
-{
-  content: "\f022";
-}
-
 .icofont-headphone-alt-1:before
 {
   content: "\ea33";
 }
 
-.icofont-headphone-alt-3:before
+.icofont-dashboard-web:before
 {
-  content: "\ea35";
+  content: "\eef9";
 }
 
-.icofont-bomb:before
+.icofont-cloud-download:before
 {
-  content: "\eebf";
-}
-
-.icofont-not-allowed:before
-{
-  content: "\efa9";
-}
-
-.icofont-police:before
-{
-  content: "\ebd4";
-}
-
-.icofont-check-circled:before
-{
-  content: "\eed7";
-}
-
-.icofont-close-circled:before
-{
-  content: "\eedd";
-}
-
-.icofont-toggle-off:before
-{
-  content: "\f011";
-}
-
-.icofont-toggle-on:before
-{
-  content: "\f012";
-}
-
-.icofont-broken:before
-{
-  content: "\eec3";
-}
-
-.icofont-clip:before
-{
-  content: "\eedb";
-}
-
-.icofont-link-alt:before
-{
-  content: "\ef70";
-}
-
-.icofont-link:before
-{
-  content: "\ef71";
+  content: "\eee5";
 }
 
 .icofont-xs
@@ -149,7 +74,7 @@
 
 .icofont-lg
 {
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 .icofont-1x
